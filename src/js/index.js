@@ -13,4 +13,4 @@ import Home from "./component/home.jsx";
 import { Register } from "./component/register.js";
 
 //render your react application
-ReactDOM.render(<Register />, document.querySelector("#app"));
+ReactDOM.render(<Home />, document.querySelector("#app"));
