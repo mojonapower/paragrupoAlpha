@@ -11,3 +11,80 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.inicio-sesion {
+    height: 100%;
+    padding-block: 20%;
+}
+
+.inicio-sesion2 {
+    height: 100%;
+    width: 60%;
+    padding-block: 25%;
+}
+
+.titulo-inicio-sesion{
+    color: #fff;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.mainContent{
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, pink 70%);
+  
+    }
+
+.figure {
+    right:0;
+    width: 60%;
+    position:fixed;
+    padding:0;
+    margin:0;
+    height: 110%;
+    margin-left: 60px;
+    background-color: rgba(248, 248, 248, 0.445);
+    border-bottom-left-radius: 100%100%;
+    box-shadow: -5px 5px 10px #b45d5da2;
+    border-top-left-radius: 100%100%;   
+
+    }
+
+.alternative{
+    background-color: white;
+    box-shadow: 5px 10px #888888;
+}
+
+.etiquetas{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(76, 24, 119);
+}
+
+.cambio-input{
+    border-radius: 30px;
+    border-color: rgb(76, 24, 119);
+   background: rgba(248, 248, 248, 0.753);
+}
+
+.cambio-input::placeholder {
+    color: rgba(76, 24, 119, 0.623);
+    opacity: 1;
+  }
+
+.boton{
+    border-radius: 30px;
+    background: rgb(76, 24, 119);
+}
+
+.boton:hover{
+    border-radius: 30px;
+    background: rgb(206, 55, 168);
+}
